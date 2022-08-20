@@ -41,7 +41,7 @@ Run the following command to train DeepLab v3+:
 python main.py --mode test --checkpoint 1-2-257-200
 ```
 
-Here is the results of experiment and our reproduced results of Deep Matting on the Adobe Image Dataset:
+Here is the results of experiment:
 
 | mIoU | BIoU | Acc | Model |
 | :--: | :--: | :--: | :--: | 
