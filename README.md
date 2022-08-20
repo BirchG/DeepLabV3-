@@ -36,7 +36,7 @@ python main.py --gpu 0 --lr 1e-2
 ```
 
 ## Test 
-Run the following command to train DeepLab v3+:
+Run the following command to test DeepLab v3+:
 ```bash
 python main.py --mode test --checkpoint 1-2-257-200
 ```
