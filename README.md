@@ -36,7 +36,7 @@ python main.py --gpu 0 --lr 1e-2
 ```
 
 ## Test 
-Run the following command to test DeepLab v3+:
+Please first download the [release](https://github.com/BirchG/DeepLabV3-/releases/download/v1.0/best.pth). And put the best.pth in experiment/1-2-257-200. Then run the following command to test DeepLab v3+:
 ```bash
 python main.py --mode test --checkpoint 1-2-257-200
 ```
@@ -45,4 +45,4 @@ Here is the results of experiment:
 
 | mIoU | BIoU | Acc | Model |
 | :--: | :--: | :--: | :--: | 
-| 82.86% | 37.61% | 0.9222 | [click]()
+| 82.86% | 37.61% | 0.9222 | [click](https://github.com/BirchG/DeepLabV3-/releases/download/v1.0/best.pth)
