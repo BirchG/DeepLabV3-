@@ -36,7 +36,7 @@ python main.py --gpu 0 --lr 1e-2
 ```
 
 ## Test 
-Please first download the [release](https://github.com/BirchG/DeepLabV3-/releases/download/v1.0/best.pth). And put the best.pth in ./experiment/1-2-257-200. Then run the following command to test DeepLab v3+:
+Please download the [release](https://github.com/BirchG/DeepLabV3-/releases/download/v1.0/best.pth) first. And put the best.pth in ./experiment/1-2-257-200. Then run the following command to test DeepLab v3+:
 ```bash
 python main.py --mode test --checkpoint 1-2-257-200
 ```
